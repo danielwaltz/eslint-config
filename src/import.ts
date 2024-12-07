@@ -1,11 +1,11 @@
 import type { Linter } from "eslint";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
-import importPlugin from "eslint-plugin-import-x";
+import importX from "eslint-plugin-import-x";
 
 export function importConfigs() {
   return [
-    importPlugin.flatConfigs.recommended as Linter.Config,
-    importPlugin.flatConfigs.typescript,
+    importX.flatConfigs.recommended as Linter.Config,
+    importX.flatConfigs.typescript,
     {
       files: ["**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,d.ts,vue}"],
       rules: {

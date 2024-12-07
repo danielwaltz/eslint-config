@@ -8,6 +8,8 @@ import { defineFlatConfigs } from "./utils.js";
 
 export * from "./utils.js";
 
+export { formattingConfigs, globalConfigs, importConfigs, typescriptConfigs };
+
 export function danielwaltz(...userConfigs: ResolvableFlatConfig[]) {
   const composer = defineFlatConfigs(...userConfigs);
 
