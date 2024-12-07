@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.8
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.7...v0.0.8)
+
+### 🩹 Fixes
+
+- Prepend sxzz config to ensure it is the base ([c874acf](https://github.com/danielwaltz/eslint-config/commit/c874acf))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.7
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.6...v0.0.7)
