@@ -1,4 +1,3 @@
-import type { Linter } from "eslint";
 import {
   type ResolvableFlatConfig,
   type FlatConfigComposer,
@@ -7,6 +6,6 @@ import {
 
 export function defineFlatConfigs(
   ...configs: ResolvableFlatConfig[]
-): FlatConfigComposer<Linter.Config> {
+): FlatConfigComposer {
   return composer(...configs);
 }
