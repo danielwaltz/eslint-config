@@ -8,5 +8,5 @@ export function formattingConfigs() {
       rules: { "prettier/prettier": "warn" },
       name: "danielwaltz/formatting/customized",
     },
-  ] as const satisfies ResolvableFlatConfig[];
+  ] as const satisfies ResolvableFlatConfig;
 }

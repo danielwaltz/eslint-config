@@ -15,5 +15,5 @@ export function globalConfigs() {
       ],
       name: "danielwaltz/global/ignores",
     },
-  ] as const satisfies ResolvableFlatConfig[];
+  ] as const satisfies ResolvableFlatConfig;
 }

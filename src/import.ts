@@ -27,5 +27,5 @@ export function importConfigs() {
       },
       name: "danielwaltz/import/customized",
     },
-  ] as const satisfies ResolvableFlatConfig[];
+  ] as const satisfies ResolvableFlatConfig;
 }
