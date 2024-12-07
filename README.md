@@ -5,7 +5,7 @@ My personal ESLint configuration.
 ## Installation
 
 ```shell
-npx -y nypm@latest i -D @danielwaltz/eslint-config
+npx -y nypm@latest i -D eslint prettier @danielwaltz/eslint-config
 ```
 
 ## Usage
