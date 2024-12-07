@@ -1,3 +1,3 @@
-import { danielwaltz } from "./dist/index.mjs";
+import { danielwaltz } from "@danielwaltz/eslint-config";
 
 export default danielwaltz();
