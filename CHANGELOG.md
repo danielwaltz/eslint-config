@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.2...v0.0.3)
+
+### 🚀 Enhancements
+
+- Add import configs ([3990a67](https://github.com/danielwaltz/eslint-config/commit/3990a67))
+
+### 🩹 Fixes
+
+- Use warn level for prettier rule ([ce9e60c](https://github.com/danielwaltz/eslint-config/commit/ce9e60c))
+
+### 📖 Documentation
+
+- Add readme ([3dce66a](https://github.com/danielwaltz/eslint-config/commit/3dce66a))
+
+### 🏡 Chore
+
+- Include readme and changelog in dist ([1c29ead](https://github.com/danielwaltz/eslint-config/commit/1c29ead))
+- Split test and release scripts ([84b0646](https://github.com/danielwaltz/eslint-config/commit/84b0646))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.2
 
 
