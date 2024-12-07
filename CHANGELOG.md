@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.5...v0.0.6)
+
+### 🚀 Enhancements
+
+- Extend from sxzz eslint config ([2192f1e](https://github.com/danielwaltz/eslint-config/commit/2192f1e))
+
+### 📖 Documentation
+
+- Add eslint and prettier to installation command ([8b42bf0](https://github.com/danielwaltz/eslint-config/commit/8b42bf0))
+
+### 🏡 Chore
+
+- Add editorconfig ([2503c53](https://github.com/danielwaltz/eslint-config/commit/2503c53))
+- Use package name import for project eslint config ([6756f9f](https://github.com/danielwaltz/eslint-config/commit/6756f9f))
+- Update type assertions ([93159bc](https://github.com/danielwaltz/eslint-config/commit/93159bc))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.5
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.4...v0.0.5)
