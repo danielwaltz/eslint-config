@@ -3,6 +3,7 @@ import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 export function vueConfigs() {
   return [
     {
+      name: "danielwaltz/vue",
       files: ["**/*.vue"],
       rules: {
         "vue/block-lang": ["error", { script: { lang: ["ts", "tsx"] } }],
