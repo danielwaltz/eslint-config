@@ -1,12 +1,48 @@
 {
-  "name": "eslint-config",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@danielwaltz/eslint-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Daniel Waltz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielwaltz/eslint-config.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "eslint-config"
+  ],
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit",
+    "prepack": "pnpm build",
+    "release": "pnpx publint@latest && pnpx @arethetypeswrong/cli@latest --pack --profile esm-only && pnpm publish"
+  },
+  "peerDependencies": {
+    "eslint": ">=9",
+    "prettier": ">=3"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-flat-config-utils": "^0.4.0",
+    "eslint-plugin-prettier": "^5.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "~22.10.1",
+    "typescript": "~5.7.2",
+    "unbuild": "^2.0.0"
+  }
 }
