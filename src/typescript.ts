@@ -1,8 +1,9 @@
+/* eslint-disable import-x/no-named-as-default-member */
 import eslint from "@eslint/js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 import tseslint from "typescript-eslint";
 
-export function typescript() {
+export function typescriptConfigs() {
   return tseslint.config(
     eslint.configs.recommended,
     tseslint.configs.recommendedTypeChecked,

@@ -1,11 +1,11 @@
-import type { Linter } from "eslint";
+import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 import prettier from "eslint-plugin-prettier/recommended";
 
-export function formatting() {
+export function formattingConfigs() {
   return [
     {
       ...prettier,
       name: "danielwaltz/formatting/prettier",
     },
-  ] as const satisfies Linter.Config[];
+  ] as const satisfies ResolvableFlatConfig[];
 }

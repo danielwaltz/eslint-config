@@ -1,6 +1,6 @@
-import type { Linter } from "eslint";
+import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
-export function global() {
+export function globalConfigs() {
   return [
     {
       ignores: [
@@ -15,5 +15,5 @@ export function global() {
       ],
       name: "danielwaltz/global/ignores",
     },
-  ] as const satisfies Linter.Config[];
+  ] as const satisfies ResolvableFlatConfig[];
 }

@@ -1,19 +1,22 @@
-import { global } from "./global.js";
-import { formatting } from "./formatting.js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
+import { formattingConfigs } from "./formatting.js";
+import { globalConfigs } from "./global.js";
+import { importConfigs } from "./import.js";
+import { typescriptConfigs } from "./typescript.js";
 import { defineFlatConfigs } from "./utils.js";
-import { typescript } from "./typescript.js";
 
 export * from "./utils.js";
 
 export async function danielwaltz(...userConfigs: ResolvableFlatConfig[]) {
   const composer = defineFlatConfigs(...userConfigs);
 
-  await composer.prepend(global());
+  await composer.prepend(globalConfigs());
 
-  await composer.append(typescript());
+  await composer.append(typescriptConfigs());
 
-  await composer.append(formatting());
+  await composer.append(importConfigs());
+
+  await composer.append(formattingConfigs());
 
   return composer;
 }
