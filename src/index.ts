@@ -10,7 +10,7 @@ export * from "./utils.js";
 export function danielwaltz(...userConfigs: ResolvableFlatConfig[]) {
   const composer = defineFlatConfigs(...userConfigs);
 
-  composer.append(sxzz());
+  composer.prepend(sxzz());
 
   composer.append(unicornConfigs());
 
