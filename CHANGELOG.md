@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.3...v0.0.4)
+
+### 🩹 Fixes
+
+- Make main config fn synchronous ([aa1682c](https://github.com/danielwaltz/eslint-config/commit/aa1682c))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.3
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.2...v0.0.3)
