@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.6...v0.0.7)
+
+### 🚀 Enhancements
+
+- Support camel case file names ([ea01564](https://github.com/danielwaltz/eslint-config/commit/ea01564))
+
+### 📖 Documentation
+
+- Include info about sxzz config ([8025acd](https://github.com/danielwaltz/eslint-config/commit/8025acd))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.6
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.5...v0.0.6)
