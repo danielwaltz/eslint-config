@@ -3,9 +3,10 @@ import prettier from "eslint-plugin-prettier/recommended";
 
 export function formattingConfigs() {
   return [
+    prettier,
     {
-      ...prettier,
-      name: "danielwaltz/formatting/prettier",
+      rules: { "prettier/prettier": "warn" },
+      name: "danielwaltz/formatting/customized",
     },
   ] as const satisfies ResolvableFlatConfig[];
 }
