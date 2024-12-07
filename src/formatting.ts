@@ -5,7 +5,7 @@ export function formatting() {
   return [
     {
       ...prettier,
-      name: "danielwaltz/formatting",
+      name: "danielwaltz/formatting/prettier",
     },
   ] as const satisfies Linter.Config[];
 }

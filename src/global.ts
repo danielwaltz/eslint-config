@@ -9,10 +9,11 @@ export function global() {
         "**/build/**",
         "**/coverage/**",
         "**/dist/**",
+        "**/generated/**",
         "**/node_modules/**",
         "**/out/**",
       ],
-      name: "danielwaltz/global",
+      name: "danielwaltz/global/ignores",
     },
   ] as const satisfies Linter.Config[];
 }

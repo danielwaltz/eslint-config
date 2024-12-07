@@ -30,7 +30,7 @@ export function typescript() {
         ],
         "@typescript-eslint/no-import-type-side-effects": "error",
       },
-      name: "danielwaltz/typescript",
+      name: "danielwaltz/typescript/customized",
     },
   ) as ResolvableFlatConfig;
 }
