@@ -28,7 +28,7 @@
     "lint": "eslint .",
     "type-check": "tsc --noEmit",
     "prepack": "pnpm build",
-    "release": "pnpx publint@latest && pnpx @arethetypeswrong/cli@latest --pack --profile esm-only && pnpm publish"
+    "release": "pnpm prepack && pnpx publint@latest && pnpx @arethetypeswrong/cli@latest --pack --profile esm-only && changelogen --release --push --publish && changelogen gh release"
   },
   "peerDependencies": {
     "eslint": ">=9",
@@ -44,6 +44,7 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "~22.10.1",
+    "changelogen": "^0.5.7",
     "typescript": "~5.7.2",
     "unbuild": "^2.0.0"
   }
