@@ -1,7 +1,7 @@
 import {
-  type ResolvableFlatConfig,
-  type FlatConfigComposer,
   composer,
+  type FlatConfigComposer,
+  type ResolvableFlatConfig,
 } from "eslint-flat-config-utils";
 
 export function defineFlatConfigs(

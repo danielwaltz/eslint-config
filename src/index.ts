@@ -1,25 +1,17 @@
-/* eslint-disable @typescript-eslint/no-floating-promises */
-import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
-import { formattingConfigs } from "./formatting.js";
-import { globalConfigs } from "./global.js";
-import { importConfigs } from "./import.js";
-import { typescriptConfigs } from "./typescript.js";
+import { hasVue, sxzz } from "@sxzz/eslint-config";
+import { vueConfigs } from "./configs/vue.js";
 import { defineFlatConfigs } from "./utils.js";
+import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
+export * from "@sxzz/eslint-config";
 export * from "./utils.js";
-
-export { formattingConfigs, globalConfigs, importConfigs, typescriptConfigs };
 
 export function danielwaltz(...userConfigs: ResolvableFlatConfig[]) {
   const composer = defineFlatConfigs(...userConfigs);
 
-  composer.prepend(globalConfigs());
+  composer.append(sxzz());
 
-  composer.append(typescriptConfigs());
-
-  composer.append(importConfigs());
-
-  composer.append(formattingConfigs());
+  if (hasVue) composer.append(vueConfigs());
 
   return composer;
 }
