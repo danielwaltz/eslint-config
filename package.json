@@ -27,7 +27,7 @@
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub",
-    "lint": "eslint .",
+    "lint": "eslint . --flag unstable_ts_config",
     "type-check": "tsc --noEmit",
     "prepack": "pnpm build",
     "test": "pnpm prepack && pnpm lint && pnpm type-check && pnpx publint@latest && pnpx @arethetypeswrong/cli@latest --pack --profile esm-only",

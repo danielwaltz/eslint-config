@@ -2,5 +2,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.format.enable": true
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.format.enable": true,
+  "eslint.options": {
+    "flags": ["unstable_ts_config"]
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
