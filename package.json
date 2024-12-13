@@ -43,9 +43,9 @@
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
-    "@types/node": "~22.10.1",
+    "@types/node": "~22.10.2",
     "changelogen": "^0.5.7",
     "typescript": "~5.7.2",
-    "unbuild": "^2.0.0"
+    "unbuild": "^3.0.1"
   }
 }
