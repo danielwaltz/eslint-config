@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.9
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.8...v0.0.9)
+
+### 📖 Documentation
+
+- Add prettier to install deps ([be84faa](https://github.com/danielwaltz/eslint-config/commit/be84faa))
+
+### 🏡 Chore
+
+- Enable ts for eslint config locally ([7f616a3](https://github.com/danielwaltz/eslint-config/commit/7f616a3))
+- Update deps ([e0d0544](https://github.com/danielwaltz/eslint-config/commit/e0d0544))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.8
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.7...v0.0.8)
