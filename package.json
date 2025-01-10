@@ -1,7 +1,7 @@
 {
   "name": "@danielwaltz/eslint-config",
   "version": "0.0.9",
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.3",
   "type": "module",
   "keywords": [
     "eslint-config"
@@ -39,13 +39,13 @@
   },
   "dependencies": {
     "@sxzz/eslint-config": "^4.5.1",
-    "eslint-flat-config-utils": "^0.4.0"
+    "eslint-flat-config-utils": "^1.0.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
-    "@types/node": "~22.10.2",
+    "@types/node": "~22.10.5",
     "changelogen": "^0.5.7",
-    "typescript": "~5.7.2",
-    "unbuild": "^3.0.1"
+    "typescript": "~5.7.3",
+    "unbuild": "^3.2.0"
   }
 }
