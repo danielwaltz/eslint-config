@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.11
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.10...v0.0.11)
+
+### 🏡 Chore
+
+- Update deps ([7af6630](https://github.com/danielwaltz/eslint-config/commit/7af6630))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.10
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.9...v0.0.10)
