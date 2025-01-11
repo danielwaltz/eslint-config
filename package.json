@@ -27,7 +27,7 @@
   "scripts": {
     "build": "unbuild",
     "stub": "unbuild --stub",
-    "lint": "eslint . --flag unstable_ts_config",
+    "lint": "eslint",
     "type-check": "tsc --noEmit",
     "prepack": "pnpm build",
     "test": "pnpm prepack && pnpm lint && pnpm type-check && pnpx publint@latest && pnpx @arethetypeswrong/cli@latest --pack --profile esm-only",
@@ -38,7 +38,7 @@
     "prettier": ">=3"
   },
   "dependencies": {
-    "@sxzz/eslint-config": "^4.5.1",
+    "@sxzz/eslint-config": "^4.6.0",
     "eslint-flat-config-utils": "^1.0.0"
   },
   "devDependencies": {
