@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.14
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.13...v0.0.14)
+
+### 🚀 Enhancements
+
+- Use const type params for generics ([a9e8b05](https://github.com/danielwaltz/eslint-config/commit/a9e8b05))
+
+### 🏡 Chore
+
+- Update readme usage examples ([001ec31](https://github.com/danielwaltz/eslint-config/commit/001ec31))
+- Add npm version badge to readme ([cac09a1](https://github.com/danielwaltz/eslint-config/commit/cac09a1))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.13
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.12...v0.0.13)
