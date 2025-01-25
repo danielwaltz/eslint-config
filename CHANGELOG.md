@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.13
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.12...v0.0.13)
+
+### 🚀 Enhancements
+
+- Support configs as generics ([29fda64](https://github.com/danielwaltz/eslint-config/commit/29fda64))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.12
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.11...v0.0.12)
