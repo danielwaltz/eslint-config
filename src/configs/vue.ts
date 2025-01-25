@@ -1,7 +1,7 @@
 import type { BaseConfig } from "../types.js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
-export function vueConfigs<TConfig extends BaseConfig = BaseConfig>() {
+export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
   return [
     {
       name: "danielwaltz/vue",

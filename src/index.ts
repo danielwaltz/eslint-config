@@ -9,8 +9,8 @@ export * from "@sxzz/eslint-config";
 export * from "./utils.js";
 
 export function danielwaltz<
-  TConfig extends BaseConfig = BaseConfig,
-  TConfigNames extends string = BaseConfigNames,
+  const TConfig extends BaseConfig = BaseConfig,
+  const TConfigNames extends string = BaseConfigNames,
 >(...userConfigs: ResolvableFlatConfig<TConfig>[]) {
   const composer = defineFlatConfigs<TConfig, TConfigNames>(...userConfigs);
 
