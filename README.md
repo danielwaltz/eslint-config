@@ -1,4 +1,4 @@
-# @danielwaltz/eslint-config
+# @danielwaltz/eslint-config [![npm](https://img.shields.io/npm/v/@danielwaltz/eslint-config.svg)](https://npmjs.com/package/@danielwaltz/eslint-config)
 
 My personal ESLint configuration. Extends from [@sxzz/eslint-config](https://github.com/sxzz/eslint-config).
 
