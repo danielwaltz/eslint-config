@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.12
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.11...v0.0.12)
+
+### 🏡 Chore
+
+- Update flat config utils ([70f1bee](https://github.com/danielwaltz/eslint-config/commit/70f1bee))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.11
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.10...v0.0.11)
