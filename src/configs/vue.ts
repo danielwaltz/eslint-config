@@ -1,6 +1,7 @@
+import type { BaseConfig } from "../types.js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
-export function vueConfigs() {
+export function vueConfigs<TConfig extends BaseConfig = BaseConfig>() {
   return [
     {
       name: "danielwaltz/vue",
@@ -81,5 +82,5 @@ export function vueConfigs() {
         "vue/valid-define-options": "error",
       },
     },
-  ] as const satisfies ResolvableFlatConfig;
+  ] as const satisfies ResolvableFlatConfig<TConfig>;
 }

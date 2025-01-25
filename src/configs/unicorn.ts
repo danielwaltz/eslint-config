@@ -1,6 +1,7 @@
+import type { BaseConfig } from "../types.js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
-export function unicornConfigs() {
+export function unicornConfigs<TConfig extends BaseConfig = BaseConfig>() {
   return [
     {
       name: "danielwaltz/unicorn",
@@ -14,5 +15,5 @@ export function unicornConfigs() {
         ],
       },
     },
-  ] as const satisfies ResolvableFlatConfig;
+  ] as const satisfies ResolvableFlatConfig<TConfig>;
 }

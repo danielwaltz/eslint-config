@@ -1,11 +1,9 @@
-import {
-  composer,
-  type FlatConfigComposer,
-  type ResolvableFlatConfig,
-} from "eslint-flat-config-utils";
+import { composer, type ResolvableFlatConfig } from "eslint-flat-config-utils";
+import type { BaseConfig, BaseConfigNames } from "./types.js";
 
-export function defineFlatConfigs(
-  ...configs: ResolvableFlatConfig[]
-): FlatConfigComposer {
-  return composer(...configs);
+export function defineFlatConfigs<
+  TConfig extends BaseConfig = BaseConfig,
+  TConfigNames extends string = BaseConfigNames,
+>(...configs: ResolvableFlatConfig<TConfig>[]) {
+  return composer<TConfig, TConfigNames>(...configs);
 }
