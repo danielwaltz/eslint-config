@@ -8,6 +8,11 @@ import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 export * from "@sxzz/eslint-config";
 export * from "./utils.js";
 
+export {
+  defineFlatConfig,
+  type DefaultConfigNamesMap,
+} from "eslint-flat-config-utils";
+
 export function danielwaltz<
   const TConfig extends BaseConfig = BaseConfig,
   const TConfigNames extends string = BaseConfigNames,
