@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.1.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.14...v0.1.0)
+
+### 🚀 Enhancements
+
+- Add exports from eslint flat config utils ([44a7316](https://github.com/danielwaltz/eslint-config/commit/44a7316))
+- ⚠️  Use latest version of `@sxzz/eslint-config` ([48bc7aa](https://github.com/danielwaltz/eslint-config/commit/48bc7aa))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Use latest version of `@sxzz/eslint-config` ([48bc7aa](https://github.com/danielwaltz/eslint-config/commit/48bc7aa))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.0.14
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.13...v0.0.14)
