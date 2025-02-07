@@ -23,7 +23,7 @@ export function danielwaltz<
 
   composer.append(unicornConfigs<TConfig>());
 
-  if (hasVue) composer.append(vueConfigs<TConfig>());
+  if (hasVue()) composer.append(vueConfigs<TConfig>());
 
   return composer;
 }

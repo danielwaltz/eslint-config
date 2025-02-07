@@ -38,8 +38,8 @@
     "prettier": ">=3"
   },
   "dependencies": {
-    "@sxzz/eslint-config": "^4.6.0",
-    "eslint-flat-config-utils": "^2.0.0"
+    "@sxzz/eslint-config": "^5.0.1",
+    "eslint-flat-config-utils": "^2.0.1"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
