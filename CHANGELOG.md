@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.1.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.1.0...v0.1.1)
+
+### 🚀 Enhancements
+
+- Update sxzz config ([edfb1a8](https://github.com/danielwaltz/eslint-config/commit/edfb1a8))
+
+### 🏡 Chore
+
+- Update exports defs ([ebf7d0e](https://github.com/danielwaltz/eslint-config/commit/ebf7d0e))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](http://github.com/danielwaltz))
+
 ## v0.1.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.0.14...v0.1.0)
