@@ -13,13 +13,13 @@ export {
   type DefaultConfigNamesMap,
 } from "eslint-flat-config-utils";
 
-export function danielwaltz<
+export async function danielwaltz<
   const TConfig extends BaseConfig = BaseConfig,
   const TConfigNames extends string = BaseConfigNames,
 >(...userConfigs: ResolvableFlatConfig<TConfig>[]) {
   const composer = defineFlatConfigs<TConfig, TConfigNames>(...userConfigs);
 
-  composer.prepend(sxzz());
+  composer.prepend(await sxzz());
 
   composer.append(unicornConfigs<TConfig>());
 
