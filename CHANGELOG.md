@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v0.1.2
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.1.1...v0.1.2)
+
+### 🚀 Enhancements
+
+- Await sxzz config ([24e910a](https://github.com/danielwaltz/eslint-config/commit/24e910a))
+- Update sxzz config ([5682511](https://github.com/danielwaltz/eslint-config/commit/5682511))
+
+### 🩹 Fixes
+
+- Strip `@types/eslint` ([6e77ce8](https://github.com/danielwaltz/eslint-config/commit/6e77ce8))
+
+### 🏡 Chore
+
+- Bump node version ([8361f8c](https://github.com/danielwaltz/eslint-config/commit/8361f8c))
+- Update dev deps ([5671593](https://github.com/danielwaltz/eslint-config/commit/5671593))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v0.1.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.1.0...v0.1.1)
