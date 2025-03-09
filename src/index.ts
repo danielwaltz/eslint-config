@@ -3,7 +3,6 @@ import { unicornConfigs } from "./configs/unicorn.js";
 import { vueConfigs } from "./configs/vue.js";
 import { defineFlatConfigs } from "./utils.js";
 import type { BaseConfig, BaseConfigNames } from "./types.js";
-import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
 export * from "@sxzz/eslint-config";
 export * from "./utils.js";
@@ -16,10 +15,10 @@ export {
 export async function danielwaltz<
   const TConfig extends BaseConfig = BaseConfig,
   const TConfigNames extends string = BaseConfigNames,
->(...userConfigs: ResolvableFlatConfig<TConfig>[]) {
-  const composer = defineFlatConfigs<TConfig, TConfigNames>(...userConfigs);
+>(...params: Parameters<typeof sxzz>) {
+  const composer = defineFlatConfigs<TConfig, TConfigNames>();
 
-  composer.prepend(await sxzz());
+  composer.prepend(await sxzz(...params));
 
   composer.append(unicornConfigs<TConfig>());
 
