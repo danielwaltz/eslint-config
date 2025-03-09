@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.2.0...v1.2.0)
+
+### 🚀 Enhancements
+
+- Add and enable erasable syntax only plugin and config ([f515da7](https://github.com/danielwaltz/eslint-config/commit/f515da7))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v0.2.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.1.2...v0.2.0)
