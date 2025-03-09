@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.1.2...v0.2.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Forward options to sxzz config ([a76b765](https://github.com/danielwaltz/eslint-config/commit/a76b765))
+
+### 🏡 Chore
+
+- Refresh lockfile ([1e25978](https://github.com/danielwaltz/eslint-config/commit/1e25978))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Forward options to sxzz config ([a76b765](https://github.com/danielwaltz/eslint-config/commit/a76b765))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v0.1.2
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.1.1...v0.1.2)
