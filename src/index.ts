@@ -1,4 +1,5 @@
 import { hasVue, sxzz } from "@sxzz/eslint-config";
+import { typescriptConfigs } from "./configs/typescript.js";
 import { unicornConfigs } from "./configs/unicorn.js";
 import { vueConfigs } from "./configs/vue.js";
 import { defineFlatConfigs } from "./utils.js";
@@ -20,8 +21,8 @@ export async function danielwaltz<
 
   composer.prepend(await sxzz(...params));
 
+  composer.append(typescriptConfigs<TConfig>());
   composer.append(unicornConfigs<TConfig>());
-
   if (hasVue()) composer.append(vueConfigs<TConfig>());
 
   return composer;

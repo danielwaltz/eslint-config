@@ -33,7 +33,7 @@
     "type-check": "tsc --noEmit",
     "prepack": "pnpm build",
     "test": "pnpm prepack && pnpm lint && pnpm type-check && pnpx publint@latest && pnpx @arethetypeswrong/cli@latest --pack --profile esm-only",
-    "release": "pnpm test && changelogen --release --push --publish && changelogen gh release"
+    "release": "pnpm test && changelogen --release --push --publish"
   },
   "peerDependencies": {
     "eslint": ">=9",
@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "@sxzz/eslint-config": "^5.3.0",
-    "eslint-flat-config-utils": "^2.0.1"
+    "eslint-flat-config-utils": "^2.0.1",
+    "eslint-plugin-erasable-syntax-only": "^0.3.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
