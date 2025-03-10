@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v2.0.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v1.2.0...v2.0.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Update sxzz config ([ca86c04](https://github.com/danielwaltz/eslint-config/commit/ca86c04))
+- Add new rule to vue config ([fbbb2d8](https://github.com/danielwaltz/eslint-config/commit/fbbb2d8))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Update sxzz config ([ca86c04](https://github.com/danielwaltz/eslint-config/commit/ca86c04))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v1.2.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v0.2.0...v1.2.0)
