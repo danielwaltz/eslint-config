@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.0.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.0.0...v2.0.1)
+
+### 🩹 Fixes
+
+- Update deprecated vue rule ([0a81e29](https://github.com/danielwaltz/eslint-config/commit/0a81e29))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.0.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v1.2.0...v2.0.0)
