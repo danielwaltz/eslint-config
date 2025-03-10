@@ -79,7 +79,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
           { sameNameShorthand: "always" },
         ],
         "vue/v-for-delimiter-style": "error",
-        "vue/v-on-function-call": "error",
+        "vue/v-on-handler-style": "error",
       },
     },
   ] as const satisfies ResolvableFlatConfig<TConfig>;
