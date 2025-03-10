@@ -47,6 +47,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
         "vue/no-boolean-default": "error",
         "vue/no-duplicate-attr-inheritance": "error",
         "vue/no-empty-component-block": "error",
+        "vue/no-import-compiler-macros": "error",
         "vue/no-multiple-objects-in-class": "error",
         "vue/no-ref-object-reactivity-loss": "error",
         "vue/no-required-prop-with-default": ["error", { autofix: true }],
@@ -79,7 +80,6 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
         ],
         "vue/v-for-delimiter-style": "error",
         "vue/v-on-function-call": "error",
-        "vue/valid-define-options": "error",
       },
     },
   ] as const satisfies ResolvableFlatConfig<TConfig>;
