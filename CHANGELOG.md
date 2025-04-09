@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.2.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.2.0...v2.2.1)
+
+### 🩹 Fixes
+
+- Configure vue accessibility rules to check for nuxt components ([22afe2b](https://github.com/danielwaltz/eslint-config/commit/22afe2b))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.2.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.1.0...v2.2.0)
