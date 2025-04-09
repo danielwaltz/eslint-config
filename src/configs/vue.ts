@@ -9,6 +9,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
       name: "danielwaltz/vue",
       files: ["**/*.vue"],
       rules: {
+        // Base
         "vue/block-lang": ["error", { script: { lang: ["ts", "tsx"] } }],
         "vue/block-order": [
           "error",
@@ -82,6 +83,16 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
         ],
         "vue/v-for-delimiter-style": "error",
         "vue/v-on-handler-style": ["error", ["method", "inline"]],
+
+        // Accessibility
+        "vuejs-accessibility/alt-text": [
+          "error",
+          { img: ["AppImage", "NuxtImg"] },
+        ],
+        "vuejs-accessibility/anchor-has-content": [
+          "error",
+          { components: ["AppLink", "NuxtLink"] },
+        ],
       },
     },
   ] as const satisfies ResolvableFlatConfig<TConfig>;
