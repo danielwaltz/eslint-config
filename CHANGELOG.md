@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v2.2.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.1.0...v2.2.0)
+
+### 🚀 Enhancements
+
+- Update vue on handler style ([7924eb2](https://github.com/danielwaltz/eslint-config/commit/7924eb2))
+- Add vue accessibility config ([965489e](https://github.com/danielwaltz/eslint-config/commit/965489e))
+
+### 🏡 Chore
+
+- Update deps ([4169d8e](https://github.com/danielwaltz/eslint-config/commit/4169d8e))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.1.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.0.1...v2.1.0)
