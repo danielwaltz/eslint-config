@@ -87,11 +87,11 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
         // Accessibility
         "vuejs-accessibility/alt-text": [
           "error",
-          { img: ["AppImage", "NuxtImg"] },
+          { img: ["AppImg", "BaseImg", "NuxtImg"] },
         ],
         "vuejs-accessibility/anchor-has-content": [
           "error",
-          { components: ["AppLink", "NuxtLink"] },
+          { components: ["AppLink", "BaseLink", "NuxtLink"] },
         ],
       },
     },
