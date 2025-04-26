@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v2.2.2
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.2.1...v2.2.2)
+
+### 🩹 Fixes
+
+- Update default accessibility component names ([6309f09](https://github.com/danielwaltz/eslint-config/commit/6309f09))
+- Update sxzz config ([fb3b808](https://github.com/danielwaltz/eslint-config/commit/fb3b808))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.2.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.2.0...v2.2.1)
