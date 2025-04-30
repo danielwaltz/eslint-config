@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v2.3.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.2.2...v2.3.0)
+
+### 🚀 Enhancements
+
+- Update sxzz config and add new vue props destructuring rule ([ba14479](https://github.com/danielwaltz/eslint-config/commit/ba14479))
+
+### 🏡 Chore
+
+- Update node to `v22.15.0` ([a24a01d](https://github.com/danielwaltz/eslint-config/commit/a24a01d))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.2.2
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.2.1...v2.2.2)
