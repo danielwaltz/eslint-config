@@ -36,6 +36,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
           },
         ],
         "vue/define-props-declaration": ["error", "type-based"],
+        "vue/define-props-destructuring": "error",
         "vue/enforce-style-attribute": ["error", { allow: ["scoped"] }],
         "vue/html-button-has-type": "error",
         "vue/html-comment-content-newline": "error",

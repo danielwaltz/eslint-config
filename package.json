@@ -1,7 +1,7 @@
 {
   "name": "@danielwaltz/eslint-config",
   "version": "2.2.2",
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "pnpm@10.10.0",
   "type": "module",
   "keywords": [
     "eslint-config"
@@ -40,14 +40,14 @@
     "prettier": ">=3"
   },
   "dependencies": {
-    "@sxzz/eslint-config": "^6.1.2",
+    "@sxzz/eslint-config": "^6.2.0",
     "eslint-flat-config-utils": "^2.0.1",
     "eslint-plugin-erasable-syntax-only": "^0.3.1",
     "eslint-plugin-vuejs-accessibility": "^2.4.1"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.1",
-    "@types/node": "~22.15.2",
+    "@types/node": "~22.15.3",
     "changelogen": "^0.6.1",
     "typescript": "~5.8.3",
     "unbuild": "^3.5.0"
