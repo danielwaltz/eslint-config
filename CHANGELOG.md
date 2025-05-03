@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v2.3.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.3.0...v2.3.1)
+
+### 🩹 Fixes
+
+- Disable problematic vue rules ([b98be06](https://github.com/danielwaltz/eslint-config/commit/b98be06))
+
+### 🏡 Chore
+
+- Bump lockfile ([020240d](https://github.com/danielwaltz/eslint-config/commit/020240d))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.3.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.2.2...v2.3.0)
