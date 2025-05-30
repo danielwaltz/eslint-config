@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v2.4.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.3.1...v2.4.0)
+
+### 🚀 Enhancements
+
+- Update sxzz config ([cb76e3e](https://github.com/danielwaltz/eslint-config/commit/cb76e3e))
+
+### 🏡 Chore
+
+- Approve local builds ([78a36c4](https://github.com/danielwaltz/eslint-config/commit/78a36c4))
+- Migrate from `unbuild` to `obuild` ([a765b63](https://github.com/danielwaltz/eslint-config/commit/a765b63))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.3.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.3.0...v2.3.1)
