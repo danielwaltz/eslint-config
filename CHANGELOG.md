@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v2.5.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.4.0...v2.5.0)
+
+### 🚀 Enhancements
+
+- Add eslint plugin depend ([1dc8d39](https://github.com/danielwaltz/eslint-config/commit/1dc8d39))
+
+### 🩹 Fixes
+
+- Update sxzz config ([5289ac5](https://github.com/danielwaltz/eslint-config/commit/5289ac5))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.4.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.3.1...v2.4.0)
