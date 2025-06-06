@@ -42,6 +42,7 @@
   "dependencies": {
     "@sxzz/eslint-config": "^7.0.1",
     "eslint-flat-config-utils": "^2.1.0",
+    "eslint-plugin-depend": "^1.2.0",
     "eslint-plugin-erasable-syntax-only": "^0.3.1",
     "eslint-plugin-vuejs-accessibility": "^2.4.1"
   },

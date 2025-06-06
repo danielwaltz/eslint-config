@@ -1,4 +1,5 @@
 import { hasVue, sxzz } from "@sxzz/eslint-config";
+import { dependConfigs } from "./configs/depend.js";
 import { typescriptConfigs } from "./configs/typescript.js";
 import { unicornConfigs } from "./configs/unicorn.js";
 import { vueConfigs } from "./configs/vue.js";
@@ -21,6 +22,7 @@ export function danielwaltz<
 
   composer.prepend(sxzz(...params));
 
+  composer.append(dependConfigs<TConfig>());
   composer.append(typescriptConfigs<TConfig>());
   composer.append(unicornConfigs<TConfig>());
   if (hasVue()) composer.append(vueConfigs<TConfig>());
