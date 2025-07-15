@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v2.5.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.5.0...v2.5.1)
+
+### 🩹 Fixes
+
+- Update sxzz config ([c03a79e](https://github.com/danielwaltz/eslint-config/commit/c03a79e))
+
+### 🏡 Chore
+
+- Refresh editorconfig ([9b2046c](https://github.com/danielwaltz/eslint-config/commit/9b2046c))
+- Update node to `v22.17.0` ([9057a95](https://github.com/danielwaltz/eslint-config/commit/9057a95))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.5.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.4.0...v2.5.0)

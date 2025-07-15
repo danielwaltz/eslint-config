@@ -1,6 +1,6 @@
 {
   "name": "@danielwaltz/eslint-config",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "packageManager": "pnpm@10.13.1",
   "type": "module",
   "keywords": [
