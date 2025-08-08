@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v2.6.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.5.1...v2.6.0)
+
+### 🚀 Enhancements
+
+- Add vue no negated condition rules ([152903f](https://github.com/danielwaltz/eslint-config/commit/152903f))
+
+### 🏡 Chore
+
+- Update deps ([2634219](https://github.com/danielwaltz/eslint-config/commit/2634219))
+
+### 🤖 CI
+
+- Release via github actions ([4a9a17f](https://github.com/danielwaltz/eslint-config/commit/4a9a17f))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.5.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.5.0...v2.5.1)
