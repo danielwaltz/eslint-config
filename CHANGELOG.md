@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v2.6.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.6.0...v2.6.1)
+
+### 🩹 Fixes
+
+- Update sxzz config and deps ([9b6b61d](https://github.com/danielwaltz/eslint-config/commit/9b6b61d))
+
+### 🏡 Chore
+
+- Add publish config ([4276d14](https://github.com/danielwaltz/eslint-config/commit/4276d14))
+
+### 🤖 CI
+
+- Update step versions ([5c4d759](https://github.com/danielwaltz/eslint-config/commit/5c4d759))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.6.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.5.1...v2.6.0)
