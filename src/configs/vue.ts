@@ -27,7 +27,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
             order: [
               "definePageMeta",
               "defineOptions",
-              "defineModal",
+              "defineModel",
               "defineProps",
               "defineEmits",
               "defineSlots",
