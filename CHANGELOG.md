@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.6.2
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.6.1...v2.6.2)
+
+### 🩹 Fixes
+
+- Update name of define model in macros order rule ([9c813c8](https://github.com/danielwaltz/eslint-config/commit/9c813c8))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.6.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.6.0...v2.6.1)
