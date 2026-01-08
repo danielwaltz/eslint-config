@@ -6,8 +6,8 @@ import { vueConfigs } from "./configs/vue.js";
 import { defineFlatConfigs } from "./utils.js";
 import type { BaseConfig, BaseConfigNames } from "./types.js";
 
-export * from "@sxzz/eslint-config";
 export * from "./utils.js";
+export * from "@sxzz/eslint-config";
 
 export {
   defineFlatConfig,
