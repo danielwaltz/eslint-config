@@ -1,6 +1,30 @@
 # Changelog
 
 
+## v3.0.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.6.2...v3.0.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Replace depend plugin with e18e ([426a99f](https://github.com/danielwaltz/eslint-config/commit/426a99f))
+
+### 🩹 Fixes
+
+- Update sxzz config and deps ([9ecdbe3](https://github.com/danielwaltz/eslint-config/commit/9ecdbe3))
+
+### 🏡 Chore
+
+- Lint fixes ([0e768c2](https://github.com/danielwaltz/eslint-config/commit/0e768c2))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Replace depend plugin with e18e ([426a99f](https://github.com/danielwaltz/eslint-config/commit/426a99f))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v2.6.2
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.6.1...v2.6.2)
