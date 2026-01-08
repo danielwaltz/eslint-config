@@ -45,9 +45,9 @@
     "prettier": ">=3"
   },
   "dependencies": {
+    "@e18e/eslint-plugin": "^0.1.3",
     "@sxzz/eslint-config": "^7.4.4",
     "eslint-flat-config-utils": "^2.1.4",
-    "eslint-plugin-depend": "^1.4.0",
     "eslint-plugin-erasable-syntax-only": "^0.4.0",
     "eslint-plugin-vuejs-accessibility": "^2.4.1"
   },
