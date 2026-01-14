@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.0.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.0.0...v3.0.1)
+
+### 🩹 Fixes
+
+- Update sxzz config ([8e93e37](https://github.com/danielwaltz/eslint-config/commit/8e93e37))
+
+### 🏡 Chore
+
+- Update node to `v24.13.0` ([49bb5d3](https://github.com/danielwaltz/eslint-config/commit/49bb5d3))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.0.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v2.6.2...v3.0.0)
