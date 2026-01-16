@@ -60,6 +60,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
         "vue/no-reserved-component-names": "error",
         "vue/no-root-v-if": "error",
         "vue/no-template-target-blank": "error",
+        "vue/no-undef-directives": "error",
         "vue/no-unsupported-features": ["error", { version: "^3.5.0" }],
         "vue/no-unused-emit-declarations": "error",
         "vue/no-unused-properties": "error",
