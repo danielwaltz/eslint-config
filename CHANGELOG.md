@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v3.1.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.0.1...v3.1.0)
+
+### 🚀 Enhancements
+
+- Add new directives rule ([389eac9](https://github.com/danielwaltz/eslint-config/commit/389eac9))
+
+### 🏡 Chore
+
+- Update tsconfig version ([f20749d](https://github.com/danielwaltz/eslint-config/commit/f20749d))
+- Update deps ([f518fb3](https://github.com/danielwaltz/eslint-config/commit/f518fb3))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.0.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.0.0...v3.0.1)
