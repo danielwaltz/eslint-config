@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v3.2.2
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.2.1...v3.2.2)
+
+### 🩹 Fixes
+
+- Ensure vue baseline config name and files are not overwritten ([79d16cf](https://github.com/danielwaltz/eslint-config/commit/79d16cf))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.2.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.2.0...v3.2.1)
