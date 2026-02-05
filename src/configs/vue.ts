@@ -101,9 +101,9 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
       },
     },
     {
+      ...baseline({ ignoreFeatures: ["top-level-await"] }).at(0),
       name: "danielwaltz/vue/baseline",
       files: ["**/*.vue"],
-      ...baseline({ ignoreFeatures: ["top-level-await"] }).at(0)?.rules,
     },
   ] as const satisfies ResolvableFlatConfig<TConfig>;
 }
