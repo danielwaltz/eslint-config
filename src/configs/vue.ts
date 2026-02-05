@@ -1,3 +1,4 @@
+import { baseline } from "@sxzz/eslint-config";
 import vueA11yPlugin from "eslint-plugin-vuejs-accessibility";
 import type { BaseConfig } from "../types.js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
@@ -98,6 +99,11 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
           { components: ["AppLink", "BaseLink", "NuxtLink"] },
         ],
       },
+    },
+    {
+      name: "danielwaltz/vue/baseline",
+      files: ["**/*.vue"],
+      ...baseline({ ignoreFeatures: ["top-level-await"] }),
     },
   ] as const satisfies ResolvableFlatConfig<TConfig>;
 }
