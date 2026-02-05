@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.2.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.1.0...v3.2.0)
+
+### 🚀 Enhancements
+
+- Update configs ([c997c0c](https://github.com/danielwaltz/eslint-config/commit/c997c0c))
+
+### 🩹 Fixes
+
+- Allow top level await in vue sfcs ([b443be9](https://github.com/danielwaltz/eslint-config/commit/b443be9))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.1.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.0.1...v3.1.0)
