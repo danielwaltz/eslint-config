@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v3.2.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.2.0...v3.2.1)
+
+### 🩹 Fixes
+
+- Only spread rules for vue baseline config ([91fe524](https://github.com/danielwaltz/eslint-config/commit/91fe524))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.2.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.1.0...v3.2.0)
