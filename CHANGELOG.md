@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.3.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.0...v3.3.1)
+
+### 🩹 Fixes
+
+- Update configs ([a5641cf](https://github.com/danielwaltz/eslint-config/commit/a5641cf))
+
+### 🏡 Chore
+
+- Migrate from obuild to tsdown ([2ed0936](https://github.com/danielwaltz/eslint-config/commit/2ed0936))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.3.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.2.2...v3.3.0)
