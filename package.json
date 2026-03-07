@@ -13,17 +13,10 @@
     "eslint-config"
   ],
   "exports": {
-    ".": {
-      "types": "./dist/index.d.mts",
-      "default": "./dist/index.mjs"
-    }
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
   "files": [
-    "CHANGELOG.md",
-    "README.md",
     "dist"
   ],
   "publishConfig": {
@@ -32,13 +25,15 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "obuild",
-    "stub": "obuild --stub",
+    "build": "tsdown",
     "lint": "eslint",
-    "type-check": "tsc --noEmit",
     "prepack": "pnpm build",
-    "test": "pnpm prepack && pnpm lint && pnpm type-check && pnpx publint@latest && pnpx @arethetypeswrong/cli@latest --pack --profile esm-only",
-    "release": "changelogen --release --push --publish"
+    "release": "changelogen --release --push --publish",
+    "test": "pnpm prepack && pnpm lint && pnpm type-check && pnpm test:publish",
+    "test:attw": "pnpx @arethetypeswrong/cli@latest --pack --profile esm-only",
+    "test:publint": "pnpx publint@latest",
+    "test:publish": "pnpm test:attw && pnpm test:publint",
+    "type-check": "tsc --noEmit"
   },
   "peerDependencies": {
     "eslint": ">=9",
@@ -55,7 +50,7 @@
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "~24.10.13",
     "changelogen": "^0.6.2",
-    "obuild": "^0.4.31",
+    "tsdown": "^0.21.0",
     "typescript": "~5.9.3"
   }
 }
