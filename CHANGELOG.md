@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.3.2
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.1...v3.3.2)
+
+### 🏡 Chore
+
+- Add jiti as explicit dep ([9a2f3cb](https://github.com/danielwaltz/eslint-config/commit/9a2f3cb))
+
+### 🤖 CI
+
+- Bump action versions ([2449f86](https://github.com/danielwaltz/eslint-config/commit/2449f86))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.3.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.0...v3.3.1)
