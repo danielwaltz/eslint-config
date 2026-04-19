@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v3.3.3
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.2...v3.3.3)
+
+### 🩹 Fixes
+
+- Update configs ([ad15d08](https://github.com/danielwaltz/eslint-config/commit/ad15d08))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.3.2
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.1...v3.3.2)
