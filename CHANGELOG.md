@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.4.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.3...v3.4.0)
+
+### 🚀 Enhancements
+
+- Enable new vue eslint rules ([faf9050](https://github.com/danielwaltz/eslint-config/commit/faf9050))
+
+### 🩹 Fixes
+
+- Update configs ([4c32c3d](https://github.com/danielwaltz/eslint-config/commit/4c32c3d))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.3.3
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.2...v3.3.3)
