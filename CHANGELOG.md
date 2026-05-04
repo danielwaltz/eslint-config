@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.5.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.4.0...v3.5.0)
+
+### 🚀 Enhancements
+
+- Update configs ([4f20127](https://github.com/danielwaltz/eslint-config/commit/4f20127))
+
+### 🤖 CI
+
+- Use pnpm 11 ([b517483](https://github.com/danielwaltz/eslint-config/commit/b517483))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.4.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.3.3...v3.4.0)
