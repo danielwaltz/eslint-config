@@ -33,7 +33,6 @@ jobs:
         with:
           node-version-file: .node-version
           cache: pnpm
-      - run: npm install -g npm@latest
       - run: pnpm ci
       - run: pnpm release
         env:
