@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.6.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.5.0...v3.6.0)
+
+### 🚀 Enhancements
+
+- Update configs ([3389dcf](https://github.com/danielwaltz/eslint-config/commit/3389dcf))
+
+### 🤖 CI
+
+- Skip installing latest npm ([ed15b0b](https://github.com/danielwaltz/eslint-config/commit/ed15b0b))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.5.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.4.0...v3.5.0)
