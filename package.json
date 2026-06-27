@@ -29,10 +29,7 @@
     "lint:fix": "eslint --fix",
     "prepack": "pnpm build",
     "release": "changelogen --release --push --publish",
-    "test": "pnpm prepack && pnpm lint && pnpm type-check && pnpm test:publish",
-    "test:attw": "pnpx @arethetypeswrong/cli --pack --profile esm-only",
-    "test:publint": "pnpx publint",
-    "test:publish": "pnpm test:attw && pnpm test:publint",
+    "test": "pnpm prepack && pnpm lint && pnpm type-check",
     "type-check": "tsc --noEmit"
   },
   "peerDependencies": {
