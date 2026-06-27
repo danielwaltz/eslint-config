@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v3.6.3
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.2...v3.6.3)
+
+### 🏡 Chore
+
+- Fail install from incorrect package managers ([6276c34](https://github.com/danielwaltz/eslint-config/commit/6276c34))
+- Drop publish linting ([c5afc8a](https://github.com/danielwaltz/eslint-config/commit/c5afc8a))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.6.2
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.1...v3.6.2)
