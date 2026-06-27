@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.6.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.0...v3.6.1)
+
+### 🩹 Fixes
+
+- Update configs ([1b7ed1b](https://github.com/danielwaltz/eslint-config/commit/1b7ed1b))
+
+### 🏡 Chore
+
+- Update min release age ([48a9140](https://github.com/danielwaltz/eslint-config/commit/48a9140))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.6.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.5.0...v3.6.0)
