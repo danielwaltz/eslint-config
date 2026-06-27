@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v3.6.2
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.1...v3.6.2)
+
+### 🏡 Chore
+
+- Use devengines and bump node version ([c628006](https://github.com/danielwaltz/eslint-config/commit/c628006))
+- Update vscode settings ([0a92247](https://github.com/danielwaltz/eslint-config/commit/0a92247))
+
+### 🤖 CI
+
+- Use new pnpm action ([e1ff93b](https://github.com/danielwaltz/eslint-config/commit/e1ff93b))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.6.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.0...v3.6.1)
