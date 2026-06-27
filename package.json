@@ -2,7 +2,6 @@
   "name": "@danielwaltz/eslint-config",
   "type": "module",
   "version": "3.6.1",
-  "packageManager": "pnpm@11.9.0",
   "author": "Daniel Waltz",
   "license": "MIT",
   "repository": {
@@ -31,8 +30,8 @@
     "prepack": "pnpm build",
     "release": "changelogen --release --push --publish",
     "test": "pnpm prepack && pnpm lint && pnpm type-check && pnpm test:publish",
-    "test:attw": "pnpm dlx @arethetypeswrong/cli --pack --profile esm-only",
-    "test:publint": "pnpm dlx publint",
+    "test:attw": "pnpx @arethetypeswrong/cli --pack --profile esm-only",
+    "test:publint": "pnpx publint",
     "test:publish": "pnpm test:attw && pnpm test:publint",
     "type-check": "tsc --noEmit"
   },
@@ -56,5 +55,17 @@
     "prettier": "^3.8.5",
     "tsdown": "^0.22.3",
     "typescript": "~6.0.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.9.0",
+      "onFail": "warn"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "24.18.0",
+      "onFail": "warn"
+    }
   }
 }
