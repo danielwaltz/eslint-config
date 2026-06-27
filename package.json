@@ -51,9 +51,9 @@
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "~24.13.2",
     "changelogen": "^0.6.2",
-    "eslint": "^10.5.0",
+    "eslint": "^10.6.0",
     "jiti": "^2.7.0",
-    "prettier": "^3.8.4",
+    "prettier": "^3.8.5",
     "tsdown": "^0.22.3",
     "typescript": "~6.0.3"
   }
