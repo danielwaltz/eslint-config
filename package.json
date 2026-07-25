@@ -28,7 +28,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "prepack": "pnpm build",
-    "release": "changelogen --release --push --publish",
+    "release": "changelogen --release --push && pnpm publish",
     "test": "pnpm prepack && pnpm lint && pnpm type-check",
     "type-check": "tsc --noEmit"
   },
