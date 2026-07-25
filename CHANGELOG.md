@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v3.6.9
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.8...v3.6.9)
+
+### 🏡 Chore
+
+- Error on missing pnpm ([5d50690](https://github.com/danielwaltz/eslint-config/commit/5d50690))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.6.8
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.7...v3.6.8)
