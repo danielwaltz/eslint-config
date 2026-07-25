@@ -1,3 +1,4 @@
+import unicorn from "eslint-plugin-unicorn";
 import type { BaseConfig } from "../types.js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
@@ -9,6 +10,9 @@ export function unicornConfigs<
   return [
     {
       name: "danielwaltz/unicorn",
+      plugins: {
+        unicorn,
+      },
       rules: {
         "unicorn/filename-case": [
           "error",

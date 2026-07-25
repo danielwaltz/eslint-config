@@ -1,11 +1,11 @@
 import { baseline } from "@sxzz/eslint-config";
-import vueA11yPlugin from "eslint-plugin-vuejs-accessibility";
+import vueA11y from "eslint-plugin-vuejs-accessibility";
 import type { BaseConfig } from "../types.js";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
 export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
   return [
-    ...vueA11yPlugin.configs["flat/recommended"],
+    ...vueA11y.configs["flat/recommended"],
     {
       name: "danielwaltz/vue",
       files: ["**/*.vue"],
