@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.6.4
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.3...v3.6.4)
+
+### 🩹 Fixes
+
+- Update configs ([8a8b497](https://github.com/danielwaltz/eslint-config/commit/8a8b497))
+
+### 🏡 Chore
+
+- Update dev deps ([3cc35f1](https://github.com/danielwaltz/eslint-config/commit/3cc35f1))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.6.3
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.2...v3.6.3)
