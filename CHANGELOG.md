@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v3.6.7
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.6...v3.6.7)
+
 ## v3.6.6
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.5...v3.6.6)
