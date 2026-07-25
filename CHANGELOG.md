@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v3.6.5
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.4...v3.6.5)
+
+### 🏡 Chore
+
+- Fix release by allowing npm usage ([3a45817](https://github.com/danielwaltz/eslint-config/commit/3a45817))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.6.4
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.3...v3.6.4)
