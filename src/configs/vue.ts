@@ -79,6 +79,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
         "vue/prefer-use-template-ref": "error",
         "vue/prefer-v-model": "error",
         "vue/require-direct-export": "error",
+        "vue/require-explicit-slots": "error",
         "vue/require-macro-variable-name": "error",
         "vue/require-name-property": "error",
         "vue/require-typed-ref": "error",
