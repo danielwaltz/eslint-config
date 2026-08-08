@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.7.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.9...v3.7.0)
+
+### 🚀 Enhancements
+
+- Enable vue require explicit slots rule ([eecce9e](https://github.com/danielwaltz/eslint-config/commit/eecce9e))
+
+### 🩹 Fixes
+
+- Update configs ([1758909](https://github.com/danielwaltz/eslint-config/commit/1758909))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.6.9
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.8...v3.6.9)
