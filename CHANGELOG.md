@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v3.7.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.7.0...v3.7.1)
+
+### 🩹 Fixes
+
+- Update configs ([77c9bd8](https://github.com/danielwaltz/eslint-config/commit/77c9bd8))
+
+### 🏡 Chore
+
+- Update dev deps ([e58bb6f](https://github.com/danielwaltz/eslint-config/commit/e58bb6f))
+- Update dev engines ([f021236](https://github.com/danielwaltz/eslint-config/commit/f021236))
+
+### 🤖 CI
+
+- Use jup ([d500263](https://github.com/danielwaltz/eslint-config/commit/d500263))
+- Update action versions ([3fe6ab1](https://github.com/danielwaltz/eslint-config/commit/3fe6ab1))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.7.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.6.9...v3.7.0)
