@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v4.0.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.7.1...v4.0.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Drop custom unicorn config ([f764df8](https://github.com/danielwaltz/eslint-config/commit/f764df8))
+
+### 🏡 Chore
+
+- Update tsconfig ([f4bb4c7](https://github.com/danielwaltz/eslint-config/commit/f4bb4c7))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Drop custom unicorn config ([f764df8](https://github.com/danielwaltz/eslint-config/commit/f764df8))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v3.7.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.7.0...v3.7.1)
