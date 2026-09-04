@@ -1,5 +1,5 @@
 import erasableSyntaxOnly from "eslint-plugin-erasable-syntax-only";
-import type { BaseConfig } from "../types.js";
+import type { BaseConfig } from "../types.ts";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
 export function typescriptConfigs<

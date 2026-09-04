@@ -1,12 +1,11 @@
 import { hasVue, sxzz } from "@sxzz/eslint-config";
-import { e18eConfigs } from "./configs/e18e.js";
-import { typescriptConfigs } from "./configs/typescript.js";
-import { unicornConfigs } from "./configs/unicorn.js";
-import { vueConfigs } from "./configs/vue.js";
-import { defineFlatConfigs } from "./utils.js";
-import type { BaseConfig, BaseConfigNames } from "./types.js";
+import { e18eConfigs } from "./configs/e18e.ts";
+import { typescriptConfigs } from "./configs/typescript.ts";
+import { vueConfigs } from "./configs/vue.ts";
+import { defineFlatConfigs } from "./utils.ts";
+import type { BaseConfig, BaseConfigNames } from "./types.ts";
 
-export * from "./utils.js";
+export * from "./utils.ts";
 export * from "@sxzz/eslint-config";
 
 export {
@@ -24,7 +23,6 @@ export function danielwaltz<
 
   composer.append(e18eConfigs<TConfig>());
   composer.append(typescriptConfigs<TConfig>());
-  composer.append(unicornConfigs<TConfig>());
   if (hasVue()) composer.append(vueConfigs<TConfig>());
 
   return composer;

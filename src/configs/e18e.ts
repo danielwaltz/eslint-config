@@ -1,5 +1,5 @@
 import e18e from "@e18e/eslint-plugin";
-import type { BaseConfig } from "../types.js";
+import type { BaseConfig } from "../types.ts";
 import type { ResolvableFlatConfig } from "eslint-flat-config-utils";
 
 export function e18eConfigs<const TConfig extends BaseConfig = BaseConfig>() {

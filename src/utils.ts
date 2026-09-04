@@ -3,7 +3,7 @@ import {
   type FlatConfigComposer,
   type ResolvableFlatConfig,
 } from "eslint-flat-config-utils";
-import type { BaseConfig, BaseConfigNames } from "./types.js";
+import type { BaseConfig, BaseConfigNames } from "./types.ts";
 
 export function defineFlatConfigs<
   const TConfig extends BaseConfig = BaseConfig,
