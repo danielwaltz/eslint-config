@@ -5,11 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: pnpm/setup@v1
-        with:
-          cache: true
-          install: false
-      - run: pnpm ci
+      - uses: unjs/setup-jup@v1.0.0
       - run: pnpm test
   release:
     runs-on: ubuntu-latest
@@ -27,11 +23,7 @@ jobs:
       - run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      - uses: pnpm/setup@v1
-        with:
-          cache: true
-          install: false
-      - run: pnpm ci
+      - uses: unjs/setup-jup@v1.0.0
       - run: pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
