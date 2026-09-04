@@ -128,9 +128,12 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0(eslint@10.10.0(jiti@2.7.0))(globals@17.12.0)
     devDependencies:
-      '@tsconfig/node24':
-        specifier: ^24.0.5
-        version: 24.0.5
+      '@tsconfig/node-ts':
+        specifier: ^23.6.4
+        version: 23.6.4
+      '@tsconfig/node26':
+        specifier: ^26.0.1
+        version: 26.0.1
       '@types/node':
         specifier: ~26.4.1
         version: 26.4.1
@@ -409,8 +412,11 @@ packages:
       eslint-plugin-astro:
         optional: true
 
-  '@tsconfig/node24@24.0.5':
-    resolution: {integrity: sha512-DWC54fGPuhZgg3Ighg4Y/A/bA3ZdB5hnzAuv/MkQ/X85sVsBsMQxu8t7khutdYeiNksBbFdDyeqv1HSW2Zl8aA==}
+  '@tsconfig/node-ts@23.6.4':
+    resolution: {integrity: sha512-37BMJvNQZ+vTgd1xG2TGBkJ6ENeT4eO4Wh2CHrnn0IwH7ybLFCzh4Uc//kc7UIvqiRac4uGdIc1meKOjMSlKzw==}
+
+  '@tsconfig/node26@26.0.1':
+    resolution: {integrity: sha512-NQT8JUFDKeAIWpR1dakeF534msQAsoSLr1WpKdRDt3sCvk2fsFK3EVKUBG5xKYVamiRO6yTfniiyvCaqOGgn/g==}
 
   '@types/debug@4.1.13':
     resolution: {integrity: sha512-KSVgmQmzMwPlmtljOomayoR89W4FynCAi3E8PPs7vmDVPe84hT+vGPKkJfThkmXs0x0jAaa9U8uW8bbfyS2fWw==}
@@ -2089,7 +2095,9 @@ snapshots:
       - ts-declaration-location
       - typescript
 
-  '@tsconfig/node24@24.0.5': {}
+  '@tsconfig/node-ts@23.6.4': {}
+
+  '@tsconfig/node26@26.0.1': {}
 
   '@types/debug@4.1.13':
     dependencies:
