@@ -60,6 +60,7 @@ export function vueConfigs<const TConfig extends BaseConfig = BaseConfig>() {
         "vue/no-required-prop-with-default": ["error", { autofix: true }],
         "vue/no-reserved-component-names": "error",
         "vue/no-root-v-if": "error",
+        "vue/no-shadow-native-events": "error",
         "vue/no-template-target-blank": "error",
         "vue/no-undef-directives": "error",
         "vue/no-unsupported-features": ["error", { version: "^3.5.0" }],
