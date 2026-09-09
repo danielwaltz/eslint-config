@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v4.1.0
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v4.0.0...v4.1.0)
+
+### 🚀 Enhancements
+
+- Enable vue no shadow native events rule ([25545d0](https://github.com/danielwaltz/eslint-config/commit/25545d0))
+
+### 🏡 Chore
+
+- Update dev deps ([9b58fd7](https://github.com/danielwaltz/eslint-config/commit/9b58fd7))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v4.0.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v3.7.1...v4.0.0)
