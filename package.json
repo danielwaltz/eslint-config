@@ -57,7 +57,7 @@
   "devDependencies": {
     "@tsconfig/node-ts": "^23.6.4",
     "@tsconfig/node26": "^26.0.1",
-    "@types/node": "~26.5.0",
+    "@types/node": "~26.5.1",
     "changelogen": "^0.6.2",
     "eslint": "^10.10.0",
     "jiti": "^2.7.0",
