@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v4.1.1
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v4.1.0...v4.1.1)
+
+### 🩹 Fixes
+
+- Bump lockfile versions ([aca5215](https://github.com/danielwaltz/eslint-config/commit/aca5215))
+
+### 🏡 Chore
+
+- Update dev engines versions ([1dc6186](https://github.com/danielwaltz/eslint-config/commit/1dc6186))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v4.1.0
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v4.0.0...v4.1.0)
