@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v4.1.2
+
+[compare changes](https://github.com/danielwaltz/eslint-config/compare/v4.1.1...v4.1.2)
+
+### 🩹 Fixes
+
+- Update configs ([e7721ce](https://github.com/danielwaltz/eslint-config/commit/e7721ce))
+
+### 🏡 Chore
+
+- Bump tooling ([a0a2cb9](https://github.com/danielwaltz/eslint-config/commit/a0a2cb9))
+
+### ❤️ Contributors
+
+- Daniel Waltz ([@danielwaltz](https://github.com/danielwaltz))
+
 ## v4.1.1
 
 [compare changes](https://github.com/danielwaltz/eslint-config/compare/v4.1.0...v4.1.1)
