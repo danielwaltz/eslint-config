@@ -26,11 +26,11 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.4.2"
+      "version": "12.15.0"
     },
     "runtime": {
       "name": "node",
-      "version": "26.9.0"
+      "version": "26.12.1"
     }
   },
   "scripts": {
